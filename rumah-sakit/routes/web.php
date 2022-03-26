@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/kelola-hospital', function () {
+    return view('kelola-hospital');
+});
+
+Route::get('/kelola-patient', function () {
+    return view('kelola-patient');
+});
+
